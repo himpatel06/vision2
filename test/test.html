@@ -1,0 +1,48 @@
+<html><head>
+
+    
+		<link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,700|Noto+Serif:400,700|Ubuntu:500,700&amp;display=swap" rel="stylesheet">
+    <link href="favicon.ico" rel="shortcut icon" type="image/x-icon">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/media.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	<link href="css/reset.css" rel="stylesheet">
+    <link href="css/spin.css" rel="stylesheet">
+   <script type="text/javascript" src="script_land.js" defer></script>
+</head>
+<body>
+ <div class="container">
+        <div class="main"><p class="main__text">
+<b>हमारा पोर्टल अपने पाठकों को  <a>Crystalix</a> की खरीद पर विशेष छूट प्रदान करता है। स्टार्ट बटन पर क्लिक करके अपनी किस्मत आजमाएं। यदि आप भाग्यशाली हैं, तो आप इस उत्पाद को सामान्य से सस्ता खरीद पाएंगे! आप सौभाग्यशाली हों!</b></p>
+ 
+            <div class="product">
+ <a href="#carousel-sale"><img src="img/prod_021.png"></a>
+  <p class="priceс"><span class="discountс"> छूट </span><span class="old_price al-cost-promo"> &euro;
+                </span><span class="new_price al-cost"> &euro; </span>
+              </p>
+			  <div class="blocktimer"><b>  इस उत्पाद को अन्य पाठकों को देने से पहले इस उत्पाद को डिस्काउंट पर ऑर्डर करें! </b></div>
+			  
+ </div>
+  <form action='/land/order' method="POST" class="al-form">
+              <select name="country" class="al-country" style="display: none;"></select>
+              <label>  अपना नाम दर्ज करें </label>
+              <div class="input-group tooltip-hide">
+                <input class="form_group" name="name" placeholder="नाम" pattern=".{3,}" required="" type="text">
+              </div>
+              <label> कृपया अपना फोन नंबर दर्ज करें </label>
+              <div class="input-group tooltip-hide">
+                <input class="form_group only_number" name="phone" placeholder="फ़ोन" pattern=".{8,20}" required="" type="tel">
+              </div>
+              <label> आपका पूरा पता पिनकोड के साथ </label>
+              <div class="input-group tooltip-hide">
+                <input class="form_group only_number" name="address" placeholder="आपका पूरा पता पिनकोड के साथ" required="" type="text" required>
+              </div>
+			  
+              <button class="form_btn" type="submit"><span class="button__text"> 50% छूट के साथ Crystalix ऑर्डर करें </span></button></button>
+              <div class=""></div>
+            </form>
+
+ </div>
+ </div>
+</body>
+</html>
